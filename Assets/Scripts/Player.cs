@@ -122,7 +122,7 @@ public class Player : MonoBehaviour
         bool grounded = Physics.Raycast(
             feetCollider.bounds.center,
             Vector3.down,
-            0.2f,
+            feetCollider.bounds.extents.y + 0.1f,
             LayerMask.GetMask("Ground")
         );
 
