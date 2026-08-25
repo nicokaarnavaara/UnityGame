@@ -12,6 +12,9 @@ public class Player : MonoBehaviour
     [SerializeField] int maxJumps = 2;
     [SerializeField] BoxCollider feetCollider;
 
+    public float gravityModifier;
+
+
     int jumpCount;
 
     [Header("Dash")]
@@ -39,6 +42,8 @@ public class Player : MonoBehaviour
         {
             Debug.Log("Rigidbody found!");
         }
+
+        Physics.gravity *= gravityModifier;
     }
 
     void FixedUpdate()
