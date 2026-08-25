@@ -2086,9 +2086,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
   moveSpeed: 10
-  jumpForce: 5
+  jumpForce: 15
   maxJumps: 2
   feetCollider: {fileID: 880417702}
+  gravityModifier: 1
   dashForce: 40
   dashDuration: 0.1
   dashCoolDown: 1
