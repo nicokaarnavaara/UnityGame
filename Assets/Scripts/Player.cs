@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
     [SerializeField] int maxJumps = 2;
     [SerializeField] BoxCollider feetCollider;
 
-    public float gravityModifier;
+    public float gravityModifier = 5f;
 
 
     int jumpCount;
