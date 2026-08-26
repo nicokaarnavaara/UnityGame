@@ -57573,7 +57573,7 @@ MonoBehaviour:
   jumpForce: 15
   maxJumps: 2
   feetCollider: {fileID: 1418505089}
-  gravityModifier: 6
+  gravityMultiplier: 5
   dashForce: 40
   dashDuration: 0.1
   dashCoolDown: 1
