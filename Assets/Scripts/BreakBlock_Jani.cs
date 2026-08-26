@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class BreakBlock_Jani : MonoBehaviour
+public class BreakBlock : MonoBehaviour
 {
     private bool isBreaking = false;
 
