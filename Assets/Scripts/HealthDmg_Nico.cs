@@ -4,7 +4,10 @@ using System.Collections;
 
 public class HealthDmg_Nico : MonoBehaviour
 {
-    public int health = 100;
+    [SerializeField] int health = 100;
+    [SerializeField] int dmg = 25;
+
+    [SerializeField] float coolDown = 1f;
 
     private bool canTakeDamage = true;
     public void TakeDamage(int damage)
@@ -23,7 +26,7 @@ public class HealthDmg_Nico : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy") && canTakeDamage)
         {
-            TakeDamage(25);
+            TakeDamage(dmg);
             StartCoroutine(DamageCooldown());
         }
     }
@@ -31,7 +34,7 @@ public class HealthDmg_Nico : MonoBehaviour
     IEnumerator DamageCooldown()
     {
         canTakeDamage = false;
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(coolDown);
         canTakeDamage = true;
     }
 
