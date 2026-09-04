@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "UnityGame.slnx"
+    "dotnet.defaultSolution": "2.5d platformer.slnx"
 }
