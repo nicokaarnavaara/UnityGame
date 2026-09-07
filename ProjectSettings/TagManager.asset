@@ -7,6 +7,7 @@ TagManager:
   - Water
   - Diamond
   - Enemy
+  - Ground
   layers:
   - Default
   - TransparentFX

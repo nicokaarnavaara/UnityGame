@@ -38,17 +38,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Depth: -0.29
+    - _Depth: 2.97
     - _Frequenchy: 0.65
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Speed: 2
-    - _WaveHeight: 0.44
-    - _absorbsion_coefficent: 6.09
+    - _WaveHeight: 0.93
+    - _absorbsion_coefficent: 4.12
     m_Colors:
-    - _Color: {r: 0.08966714, g: 0.15726237, b: 0.2924528, a: 1}
-    - _Direction: {r: -1, g: 1, b: 0.69, a: 0}
-    - _absorbtion: {r: 0.017933426, g: 0.032804813, b: 0.122641504, a: 1}
+    - _Color: {r: 0.39409044, g: 0.42157596, b: 0.6792453, a: 1}
+    - _Direction: {r: 0.59, g: 2.68, b: 0.39, a: 0}
+    - _absorbtion: {r: 0.44370773, g: 0.47150898, b: 0.5566038, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &5745106550689851661
