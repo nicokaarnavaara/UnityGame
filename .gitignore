@@ -104,3 +104,20 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# FMOD Studio local files
+**/.cache/
+**/.user/
+**/.unsaved/
+
+# FMOD for Unity generated cache
+/[Aa]ssets/Plugins/FMOD/Cache/*
+
+# Banks copied automatically into StreamingAssets
+/[Aa]ssets/StreamingAssets/**/*.bank
+/[Aa]ssets/StreamingAssets/**/*.bank.meta
+
+# Keep required FMOD libraries and editor resources
+!/[Aa]ssets/Plugins/FMOD/**/lib/*
+!/[Aa]ssets/Gizmos/FMOD/*
+!/[Aa]ssets/Editor Default Resources/FMOD/*
