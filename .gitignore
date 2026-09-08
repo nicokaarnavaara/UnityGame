@@ -121,3 +121,6 @@ InitTestScene*.unity*
 !/[Aa]ssets/Plugins/FMOD/**/lib/*
 !/[Aa]ssets/Gizmos/FMOD/*
 !/[Aa]ssets/Editor Default Resources/FMOD/*
+
+.DS_Store
+**/.DS_Store
