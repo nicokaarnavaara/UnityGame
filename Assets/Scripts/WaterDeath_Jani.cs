@@ -1,25 +1,31 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
-
 public class WaterDeath : MonoBehaviour
 {
+    public GameoverRestart_Nico gameOver;
+
+    private bool hasDied = false;
+
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && !hasDied)
         {
-            Debug.Log("YOU DIED! You fell into the water.");
-
-            other.gameObject.SetActive(false);
-
-            StartCoroutine(ReloadScene());
+            hasDied = true;
+            Die();
         }
     }
 
-    private IEnumerator ReloadScene()
+    private void Die()
     {
-        yield return new WaitForSeconds(2f);
 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        if (gameOver != null)
+        {
+            gameOver.GameOver();
+        }
+        else
+        {
+            Debug.LogError("GAMEOVER REFERENCE IS NULL!");
+        }
     }
 }
