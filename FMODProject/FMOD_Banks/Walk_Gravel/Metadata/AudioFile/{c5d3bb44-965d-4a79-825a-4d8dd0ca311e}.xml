@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{c5d3bb44-965d-4a79-825a-4d8dd0ca311e}">
+		<property name="assetPath">
+			<value>superjump   2 Serum 2 (Bounce).mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.26400000000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{90dd088a-5f6d-4a8d-add6-88dfe23787bd}</destination>
+		</relationship>
+	</object>
+</objects>
